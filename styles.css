@@ -68,19 +68,16 @@ textarea {
 
 .hero {
   min-height: 649px;
-  padding: 118px 50px 100px;
+  padding: 14px 50px 100px;
   background:
     radial-gradient(circle at 82% 14%, rgba(255, 255, 255, 0.88), transparent 28%),
     linear-gradient(180deg, #fffdf9 0%, #f5e4cf 58%, #efd1a6 100%);
 }
 
 .topbar {
-  position: fixed;
-  top: 14px;
-  left: 50%;
+  position: relative;
   z-index: 1000;
-  width: min(894px, calc(100vw - 100px));
-  transform: translateX(-50%);
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -1429,8 +1426,7 @@ address strong {
   }
 
   .topbar {
-    top: 10px;
-    width: calc(100vw - 48px);
+    width: 100%;
   }
 
   .menu-toggle {
@@ -1525,7 +1521,7 @@ address strong {
   }
 
   .hero-content {
-    padding-top: 42px;
+    padding-top: 34px;
   }
 
   .brand strong {
